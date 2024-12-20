@@ -1,0 +1,14 @@
+
+{%extends 'basic.html'%}
+{%block 'body'%}
+
+
+    {% for student in students%}
+    {{student.name}} {{student.age}}
+    
+    {% endfor %}
+    {% endblock %
+    }
+    
+</body>
+</html>
